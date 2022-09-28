@@ -1,0 +1,233 @@
+@media only screen and (max-width: 700px) {
+    
+    body{
+      min-width:350px;
+    }
+    .top-bar nav{
+      display: none;  
+    }
+    .top-bar{
+      justify-content: space-between;
+      padding-inline:1em
+    }
+    .open-menu{
+      display:block;
+    }
+
+    .open-menu button{
+      padding:.2em;
+      font-size: 2em;
+      border:none;
+      color:#553110;
+      background:none;
+      cursor:pointer;
+    }
+
+    /* ////////////////////Mobile Menu //////////////////// */
+    nav{
+      /* position:relative; */
+  
+  }
+  .top-bar nav ul{
+      
+      border:1px solid rgb(104, 103, 103);
+      background: white;
+      width: 12em;
+      
+      flex-direction:column;
+      justify-content: space-around;
+      align-items: center;
+      
+      
+      position:absolute;
+      top:4em;
+      right: 3em;
+      
+  }
+  
+  .top-bar nav ul li{
+    margin-block: .5em;
+  }
+  .top-bar .order-now{
+    
+      margin-left: 0;
+      margin-block: .8em;
+      
+  }
+  
+  
+
+    /* /////////////////////HERO //////////////////////////// */
+    .hero{
+      flex-direction:column;
+      justify-content:start;
+      padding:0;
+      height: auto;
+      width:100%;
+      min-width: auto;;
+    }
+
+    .right-col{
+      order:1;
+      width:100%;
+      height:auto;
+    
+    }
+    
+      
+  
+  
+  .right-col img{
+      display:block;
+      max-width: 100%;
+      height:auto;
+    
+  }
+
+    .left-col{
+      order:2;
+      padding:1em;
+      width:100%;
+      margin:auto;
+
+    }
+
+    .hero-main-heading{
+      width:80%;
+    }
+
+    /* /////////////////////////// MORE DESIGNS ///////////////// */
+    .carousel-container{
+      margin-bottom: 20px;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+    }
+    
+    .carousel{
+        width: 80%;
+        /* height: 80%; */
+        position:relative;
+        
+    }
+
+    
+    .design-template{
+      padding-block: 1em;
+      width:100%;
+     
+    }
+
+    .divider{
+      width: 2px;
+      height: 80%;
+      background-color: rgb(208, 208, 208);
+  
+  }
+  
+  .design-template img{
+      width: 40%;
+      
+  }
+  
+  .design-template .design-desc{
+      width: 40%;
+      
+  }
+
+    .carousel-btn{
+      padding:0;
+      margin:.5em;
+    }
+/* ///////////////////// MEET THE OWNER ////////// */
+
+      
+  .owner{
+    width:100%;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+  }
+
+  .owner img{
+    width: 50%;
+    margin:1em;
+  }
+
+  .owner p{
+    text-align: left;
+    padding-block:1em;
+    padding-bottom:2em;
+    width: 80%;
+    margin: 0;
+  }
+
+  /* //////////// CONTACT ////////////////// */
+  
+  .form-and-map{
+    flex-direction: column;
+  }
+
+  .contact-form > *{
+    margin-block:1em;
+    border: 1px solid gray;
+    padding:10px;
+    border-radius: 10px;;
+  }
+
+  .map{
+    width:100%;
+    /* transform: translateX(-5%); */
+  }
+
+  .footer{
+    flex-direction:column;
+    align-items:center;
+  }
+
+  .footer nav{
+
+  }
+  .footer > div,
+  .footer >nav{
+    width:80%;
+    padding-block: 1em;
+}
+
+.footer .contact .social { 
+  padding-block:2em;
+}
+
+
+}
+
+/* ////////////////////////////////////////////
+//////////////////////////////////////////////
+////////////////////////////////////////////// */
+  @media only screen and (max-width: 500px) {
+  
+    .carousel{
+      width: 90%;
+      /* height: 50vw;; */
+  }
+    .design-template img{
+      width: 50%;
+      
+  }
+  
+  .design-template .design-desc{
+      width: 40%;      
+  }
+
+  .design-desc-text{
+    font-size: .7em;
+}
+
+
+ .carousel-btn{
+    padding:0;
+    margin:.2em;
+  }
+
+
+  }
