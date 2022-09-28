@@ -30,24 +30,35 @@ ul{
     list-style: none;
 }
 
-
 .top-bar{
     height: 5em;
     width: 100%;
     padding-inline:var(--page-padding);
     display:flex;
     align-items:center;
+    
     /* justify-content:space-between; */
 }
+
+.top-bar > a{
+    text-decoration:none;
+}
+
+.logo-img{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
 .logo{
-    /* border:1px solid green; */
+    
+    margin-left: .5em;
     display:flex;
     flex-direction:column;
 
 }
 .logo-main{
     font-weight:bold;
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 .logo-tag{
     font-size: .8em;
