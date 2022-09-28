@@ -169,10 +169,11 @@
   }
 
   .contact-form > *{
-    margin-block:1em;
+    margin:1em auto;
     border: 1px solid gray;
     padding:10px;
-    border-radius: 10px;;
+    border-radius: 10px;
+    width: 90%;
   }
 
   .map{
